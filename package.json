@@ -1,0 +1,13 @@
+{
+	"name": "Notelog",
+	"version": "0.0.1",
+	"description": "To do list app",
+	"main": "scripts.js",
+	"scripts": {
+		"start": "browser-sync start --directory --server --files \"assets/styles/*.css, *.html, assets/scripts/*.js\""
+	},
+	"author": "Alannah Holder",
+	"devDependencies": {
+		"browser-sync": "^2.26.7"
+	}
+}

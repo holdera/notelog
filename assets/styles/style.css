@@ -1,0 +1,94 @@
+/* css variables */
+
+:root{
+	--base: #08345b;
+	--textColor: #333;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* header styles*/
+.header-section {
+    background: var(--base);
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+
+}
+h1 {
+	font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* body content styles*/
+.container-fluid {
+	min-height: 80%;
+	padding-bottom:39px;
+}
+#app {
+	margin: 20px auto 20px;
+	width: 100%;
+	max-width: 700px;
+	display: block;
+	padding: 0 10px;
+}
+
+input[type="text"] {
+	display: block;
+	border-radius: 4px;
+	border: 1px #ddd solid;
+	width: 100%;
+	padding: 5px;
+}
+
+.btns {
+	display: block;
+	margin: 8px 0 0;
+}
+
+.notes {
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.notes li {
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.notes label {
+    margin-bottom: 0;
+}
+
+.notes input[type="checkbox"] {
+	margin-right: 6px;
+}
+
+/*footer styles */
+.footer-section {
+	background: var(--base);
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+.footer-section p {
+    padding: 10px 0;
+	margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+}
